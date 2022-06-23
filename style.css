@@ -45,6 +45,8 @@ nav{
 
 }
 
+
+
 .compare{
     margin: 10px;
     font-family: 'Coming Soon', cursive;
@@ -52,13 +54,14 @@ nav{
 .inicio{
     /* background-color: black; */
     color: white;
-    width: 100px;
+    width: 120px;
     margin: 10px;
     text-align: center;
     font-family: 'Coming Soon', cursive;
     
 
 }
+
 .img-rs{
     background-color: rgb(28, 240, 230);
     width: 51px;
@@ -239,6 +242,7 @@ form button{
 }
 .cuadros-recetas img{
     padding: 10px;
+    
         
 
 }
@@ -260,7 +264,7 @@ form button{
     flex-direction: column;
     margin: 15px;
     align-items: center;
-    background: #8e0707;
+    background: #d30707;
     color: white;
     padding: 5px;
     border-radius: 10px;
@@ -273,7 +277,7 @@ form button{
     flex-direction: column;
     margin: 15px;
     align-items: center;
-    background: #5450d3;
+    background: #2019e7;
     color: white;
     padding: 5px;
     border-radius: 10px;
@@ -286,7 +290,7 @@ form button{
     flex-direction: column;
     margin: 15px;
     align-items: center;
-    background: #08d10c;
+    background: #31d333;
     color: white;
     padding: 5px;
     border-radius: 10px;
@@ -299,7 +303,7 @@ form button{
     flex-direction: column;
     margin: 15px;
     align-items: center;
-    background: #030303;
+    background: #010000;
     color: white;
     padding: 5px;
     border-radius: 10px;
