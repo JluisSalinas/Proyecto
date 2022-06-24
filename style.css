@@ -374,7 +374,7 @@ footer h2{
 }
 @media screen and (max-width:700px){
     .foto{
-        width: 400px;
+        width: 700px;
     }
     #flex-rrss{
         display: none;
@@ -382,6 +382,44 @@ footer h2{
     #jumbotron{
         display: flex;
         flex-direction:column-reverse
+
     }
-    
+    .mail{
+        text-align: center;
+        justify-items: end;
+        
+    }
+    #eventos-cata{     
+       display: block;
+       height: 10%;
+
+   
+    }
+    .evento{
+        margin: 100px;
+    }
+    .evento h1{
+        text-align: center;
+        font-size: 5vw;
+
+
+    } 
+    .evento p{
+        text-align: center;
+    }
+    .productos{
+        display: flex; 
+        background-color: white;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-end;
+        height: 100%
+    }
+    .cuadros-recetas{
+        display: flex;
+        flex-direction: column;
+        height: 10%;
+
+    }
+        
 }
