@@ -423,3 +423,65 @@ footer h2{
     }
         
 }
+@media screen and (max-width:390px){
+    .foto{
+        width: 570px;
+    }
+    .experiencia{
+        width: 570px;
+        background: #efefef;
+    }
+    #logo{
+        margin-right: 15px;
+        
+        
+    }
+    #flex-container{
+        width: 700px;
+    }
+    #flex-nav{
+       margin: 3px;
+       margin-top:auto;
+       left:0; right:0; top:0;
+   
+    }
+    #flex-rrss{
+        display: none;
+
+    }
+    #jumbotron{
+        display: flex;
+        flex-direction:column-reverse
+
+    }
+    #prox-eve{
+        width: 550px;
+        
+    }
+    .evento{
+    margin: 80px;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+        
+    }
+
+    #prox-eve h1,
+    #prox-eve p{
+        text-align: center;
+        font-size: 5vw;
+        margin: 8px;
+  
+    }
+
+    .evento img{
+        width: 230px;
+        height: 280px;
+
+    }
+    
+
+    
+}
