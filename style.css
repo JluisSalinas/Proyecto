@@ -512,3 +512,32 @@ footer h2{
 
     
 }
+@media screen and (max-width:412px){
+    .foto{
+        width: 412px;
+    }
+   
+    .evento img{
+        width: 200px;
+        height: 200px;
+
+    }
+    .cuadros-recetas{
+        width: 110%;
+        height: 60%;
+        margin: 15px 15px;
+        padding: 5px 1px;
+    
+
+    }
+    .evento{        
+        width: 65%;
+        height: 402px;
+        margin: 60px;
+    }
+    .cuadros-recetas img{
+        width: 240px;
+        height: 180px;
+    }
+
+}
