@@ -407,28 +407,31 @@ footer h2{
     .evento p{
         text-align: center;
     }
-    .productos{
-        display: flex; 
-        background-color: white;
+    .productos{         
+        background-color: #efefef;
         flex-direction: column;
-        justify-content: center;
-        align-content: flex-end;
-        height: 100%
+        justify-content: center;  
+        height: 100%;
     }
     .cuadros-recetas{
         display: flex;
         flex-direction: column;
-        height: 10%;
+        justify-self: center;
+        margin: 50px 200px;
+        height: 100%;
+        width: 60%;
+    
 
     }
-        
+     
 }
+        
 @media screen and (max-width:390px){
     .foto{
-        width: 570px;
+        width: 390px;
     }
     .experiencia{
-        width: 570px;
+        width: 390px;
         background: #efefef;
     }
     #logo{
@@ -452,21 +455,31 @@ footer h2{
     #jumbotron{
         display: flex;
         flex-direction:column-reverse
+        
 
     }
     #prox-eve{
-        width: 550px;
+        width: 380px;
         
     }
-    .evento{
-    margin: 80px;
-    align-items: center;
-    background: black;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
+    #eventos-cata{     
+        display: block;
+        height: 100%;
+        width: 90%;
+ 
+    }
+    .evento{        
+        width: 85%;
+        height: 500px;
+        margin: 30px;
+        align-items: center;
+        background: black;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
         
     }
+       
 
     #prox-eve h1,
     #prox-eve p{
@@ -478,8 +491,22 @@ footer h2{
 
     .evento img{
         width: 230px;
-        height: 280px;
+        height: 250px;
 
+    }
+  
+
+    .cuadros-recetas{
+        width: 110%;
+        height: 140%;
+        margin: 30px;
+        padding: 5px 10px;
+    
+
+    }
+    .cuadros-recetas img{
+        width: 230px;
+        height: 130px;
     }
     
 
